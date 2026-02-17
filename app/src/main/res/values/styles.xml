@@ -1,0 +1,7 @@
+<resources>
+<style name="BrandRadio">
+    <item name="android:paddingTop">4dp</item>
+    <item name="android:paddingBottom">4dp</item>
+    <item name="android:textColor">@color/textPrimary</item>
+</style>
+</resources>
