@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="18dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вибір телефону"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2E2A35"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Тип телефону"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#2E2A35" />
+
+    <Spinner
+        android:id="@+id/spinnerPhoneType"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:drawable/editbox_background"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Фірма"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#2E2A35"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioSamsung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Samsung" />
+
+        <RadioButton
+            android:id="@+id/radioApple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple" />
+
+        <RadioButton
+            android:id="@+id/radioXiaomi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xiaomi" />
+
+        <RadioButton
+            android:id="@+id/radioHuawei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Huawei" />
+
+        <RadioButton
+            android:id="@+id/radioRealme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Realme" />
+
+        <RadioButton
+            android:id="@+id/radioNokia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nokia" />
+
+        <RadioButton
+            android:id="@+id/radioMotorola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Motorola" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonOk"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="OK"
+        android:textStyle="bold" />
+</LinearLayout>
